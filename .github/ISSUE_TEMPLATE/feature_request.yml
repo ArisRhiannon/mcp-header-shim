@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest a check, format, or option
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes: { label: What problem would this solve? }
+    validations: { required: true }
+  - type: textarea
+    id: fp
+    attributes: { label: Possible false positives or downsides }

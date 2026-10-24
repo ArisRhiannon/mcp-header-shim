@@ -1,0 +1,14 @@
+{
+  "name": "mcp-header-shim",
+  "version": "0.1.0",
+  "description": "Self-hosted OAuth 2.1 front door for MCP: lets OAuth-only MCP clients (remote connectors) use servers that need API keys or custom headers. Streamable HTTP + SSE proxy, PKCE, dynamic client registration. Zero deps.",
+  "bin": { "mcp-header-shim": "bin/mcp-header-shim.js" },
+  "files": ["bin", "src"],
+  "scripts": { "test": "node --test test/shim.test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "oauth", "oauth2", "pkce", "mcp-proxy", "api-key", "claude", "remote-mcp", "streamable-http"],
+  "author": "Aris Rhiannon (https://github.com/ArisRhiannon)",
+  "license": "MIT",
+  "homepage": "https://github.com/ArisRhiannon/mcp-header-shim#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/ArisRhiannon/mcp-header-shim.git" }
+}
